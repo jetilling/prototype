@@ -1,0 +1,21 @@
+html {
+  background: #FCFDFF
+}
+
+#stuff {
+  height: 5px;
+  background: #79BD9A
+}
+
+#title {
+  font-size: 100px;
+  font-family: 'Pacifico', cursive;
+  color: #FCFDFF;
+  text-shadow: -4px 0 #0B486B, 0 4px #0B486B, 4px 0 #0B486B, 0 -4px #0B486B;
+}
+
+@media(max-width: 320px) {
+  #title {
+    font-size: 20px;
+  }
+}
