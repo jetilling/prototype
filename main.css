@@ -4,14 +4,70 @@ html {
 
 #stuff {
   height: 5px;
-  background: #79BD9A
+  background: #F06060
 }
 
 #title {
   font-size: 100px;
   font-family: 'Pacifico', cursive;
   color: #FCFDFF;
-  text-shadow: -4px 0 #0B486B, 0 4px #0B486B, 4px 0 #0B486B, 0 -4px #0B486B;
+  text-shadow: -2.5px 0 #0B486B, 0 2.5px #0B486B, 2.5px 0 #0B486B, 0 -2.5px #0B486B;
+  display: flex;
+  justify-content: center;
+  /* Style 1 - no background */
+
+  /* Style 2 */
+  background: #79BD9A;
+}
+
+#nav-bar {
+  /* Style 1 background green or red */
+  /* background: #79BD9A; */
+  /* background: #F06060; */
+
+  /* Style 2 */
+  border-top: 4px solid #F06060;
+  border-right: 4px solid #F06060;
+  border-bottom: 4px solid #F06060;
+  background: #FCFDFF;
+  display: flex;
+  justify-content: center;
+}
+
+#nav-links {
+  height: 100%;
+}
+.nav-bar-element {
+  height: 100%;
+  font-family: 'Loto', sans-serif;
+  font-size: 18px;
+  color: black
+}
+
+/* #title-grab-box {
+  display: flex;
+  justify-content: center;
+} */
+
+.login-font {
+  font-family: 'Loto', sans-serif;
+}
+
+.grab-word {
+  background: transparent;
+  color: #F06060;
+  display: inline;
+}
+
+#title-grab {
+  font-family: 'Loto', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-left: 20%;
+}
+
+#submit-btn {
+  background: #79BD9A
 }
 
 @media(max-width: 320px) {
